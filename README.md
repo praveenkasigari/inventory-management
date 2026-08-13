@@ -79,25 +79,11 @@ After successful login, the server generates a JWT token.
 The token must be provided in the Authorization header:
 
 ```text
-Authorization: Bearer <JWT_TOKEN> 
-
-
-## API Testing Screenshots
-
-### USER - Create Product - 403 Forbidden
-
-USER is not authorized to create products.
-
-![USER Forbidden](docs/user-forbidden.png)
-
-### ADMIN - Create Product - 200 OK
-
-ADMIN is authorized to create products successfully.
-
-![ADMIN Create Product](docs/admin-create-product.png)
-
+Authorization: Bearer <JWT_TOKEN>
 ### GET Product - 200 OK
+
+
+
 
 Authenticated users can retrieve product details.
 
-![Get Product](docs/get-product.png)
